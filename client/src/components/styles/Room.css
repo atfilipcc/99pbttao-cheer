@@ -1,0 +1,49 @@
+.Room__container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.Room__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.Room__accept {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  border: none;
+  background-color: #ff3366;
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.Room__disconnect {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  border: none;
+  background-color: #ff3366;
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+
+.Room__video-user {
+  z-index: 999;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(207, 207, 207);
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+.Room__video-partner {
+  width: 48rem;
+  height: 27rem;
+  background-color: rgb(207, 207, 207);
+}
