@@ -41,7 +41,7 @@ $ npm install
 
 ### Step 3
 
-- Add your credentials to the environment - you will need a Google API key
+- Add your credentials to the environment - you will need a Google API key, ID, Secret, a MongoDB URI, as well as a secret for the express/socket.io session.
 
 ### Step 4
 
